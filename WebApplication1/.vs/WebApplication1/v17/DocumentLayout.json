@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\felip\\OneDrive\\Documentos\\PlannerInvesting\\JornadaDoInvestidor\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0EF752-8AC9-4750-9668-F0C65AD4ACDB}|WebApplication1.csproj|c:\\users\\felip\\onedrive\\documentos\\plannerinvesting\\jornadadoinvestidor\\webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0EF752-8AC9-4750-9668-F0C65AD4ACDB}|WebApplication1.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0EF752-8AC9-4750-9668-F0C65AD4ACDB}|WebApplication1.csproj|c:\\users\\felip\\onedrive\\documentos\\plannerinvesting\\jornadadoinvestidor\\webapplication1\\webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4A0EF752-8AC9-4750-9668-F0C65AD4ACDB}|WebApplication1.csproj|solutionrelative:webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 144,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\PlannerInvesting\\JornadaDoInvestidor\\WebApplication1\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\PlannerInvesting\\JornadaDoInvestidor\\WebApplication1\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T21:16:01.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebApplication1.http",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\PlannerInvesting\\JornadaDoInvestidor\\WebApplication1\\WebApplication1.http",
+              "RelativeDocumentMoniker": "WebApplication1.http",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\PlannerInvesting\\JornadaDoInvestidor\\WebApplication1\\WebApplication1.http",
+              "RelativeToolTip": "WebApplication1.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-27T21:15:59.263Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
