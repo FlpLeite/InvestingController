@@ -2,11 +2,12 @@
 import {ref} from 'vue'
 import HomeView from './views/HomeView.vue';
 import Planner from './views/Planner.vue';
+import { RouterView } from 'vue-router';
 
 </script>
 
 <template>
-  <HomeView />
+  <RouterView />
   <header>
     <nav class="navbar navbar-expand-lg  fixed-top">
       <div class="container-fluid">
