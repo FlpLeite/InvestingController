@@ -1,3 +1,5 @@
+My planning for this project:
+
 | **Step**                  | **Description**                                                                               | **Technologies/Details**                                                    | **Estimated Duration** |
 |---------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-------------------------|
 | **1. Initial Planning**   | Define scope, user stories, and required resources.                                           | Review this plan and align priorities.                                      | 1 day                  |
