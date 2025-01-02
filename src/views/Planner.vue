@@ -36,10 +36,10 @@
               <td>{{ movimentacao.valorTotal }}</td>
               <td>
                 <button class="btn btn-outline-warning btn-sm me-2">
-                  <i class="bi bi-pencil-square"></i> Editar
+                  <a class="bi bi-pencil-square"></a> Editar
                 </button>
                 <button class="btn btn-outline-danger btn-sm">
-                  <i class="bi bi-trash"></i> Excluir
+                  <a class="bi bi-trash"></a>Excluir
                 </button>
               </td>
             </tr>
@@ -48,7 +48,7 @@
       </div>
       <div class="d-flex justify-content-center mt-4">
         <button class="btn btn-primary btn-lg">
-          <i class="bi bi-plus-circle"></i> Adicionar Nova Movimentação
+          <a class="bi bi-plus-circle"></a> Adicionar Nova Movimentação
         </button>
       </div>
     </div>
@@ -89,11 +89,11 @@
     margin: auto;
     background: #f9f9f9;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 18px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     right: 42.5px;
-    bottom: 150px;
+    bottom: 100px;
     }
   
   .header-section h1 {

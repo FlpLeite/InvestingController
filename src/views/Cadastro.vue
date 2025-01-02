@@ -1,114 +1,65 @@
 <template>
-    <div class="cadastro-usuario">
-        <h2>Cadastro de Usuário</h2>
-        <form @submit.prevent="handleSubmit">
-            <div>
-                <label for="nome">Nome completo:</label>
-                <input type="text" id="nome" v-model="nome" required />
+    <div class="auth-container">
+        <h2 class="text-center mb-4">Cadastro</h2>
+        <form @submit.prevent="handleCadastro">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" id="nome" v-model="nome" class="form-control" required />
             </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" v-model="email" required />
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" v-model="email" class="form-control" required />
             </div>
-            <div>
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" v-model="senha" required />
+            <div class="mb-3">
+                <label for="password" class="form-label">Senha</label>
+                <input type="password" id="password" v-model="password" class="form-control" required />
             </div>
-            <button type="submit" class="btn btn-primary">Cadastrar</button>
+            <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
         </form>
-        <div v-if="mensagemErro" class="mensagem-erro">{{ mensagemErro }}</div>
-        <div v-if="mensagemSucesso" class="mensagem-sucesso">{{ mensagemSucesso }}</div>
+        <p class="text-center mt-3">
+            Já tem uma conta?
+            <router-link to="/login">Faça login</router-link>
+        </p>
     </div>
 </template>
 
 <script>
-//   import httpCommon from '@/http-common';
-import router from '@/router'
-
 export default {
+    name: "Cadastro",
     data() {
         return {
-            nome: '',
-            email: '',
-            senha: '',
-            mensagemErro: '',
-            mensagemSucesso: ''
+            nome: "",
+            email: "",
+            password: "",
         };
     },
     methods: {
-        async handleSubmit() {
-            this.mensagemErro = '';
-            this.mensagemSucesso = '';
-
-            const dadosCadastro = {
-                nome: this.nome,
-                email: this.email,
-                senha: this.senha,
-            };
-
-            try {
-                const resposta = await httpCommon.post('api/Usuario', dadosCadastro);
-                if (resposta.status === 201) {
-                    this.mensagemSucesso = 'Cadastro realizado com sucesso!';
-                    this.nome = '';
-                    this.email = '';
-                    this.senha = '';
-
-                    router.push('/login')
-                } else {
-                    this.mensagemErro = 'Erro ao realizar cadastro. Tente novamente.';
-                }
-            } catch (erro) {
-                this.mensagemErro = 'Erro ao realizar cadastro. Tente novamente.';
-                console.error('Erro ao enviar dados de cadastro:', erro);
-            }
-        }
-    }
-}
+        handleCadastro() {
+            console.log("Nome:", this.nome);
+            console.log("Email:", this.email);
+            console.log("Senha:", this.password);
+        },
+    },
+};
 </script>
 
 <style scoped>
-.cadastro-usuario {
-    max-width: 400px;
-    margin: 100px auto;
-    padding: 30px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+.auth-container {
+    color: #fff;
+    width: 1300px;
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    background-color: #05102483;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    bottom: 30px;
+    position: relative;
+    right: 45.5px;
 }
 
-.cadastro-usuario h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.cadastro-usuario div {
-    margin-bottom: 15px;
-}
-
-.cadastro-usuario label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.cadastro-usuario input {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
-.cadastro-usuario button {
-    width: 100%;
-    padding: 10px;
-}
-
-.mensagem-erro {
-    color: red;
-    margin-top: 10px;
-}
-
-.mensagem-sucesso {
-    color: green;
-    margin-top: 10px;
+input {
+    background-color: #fff;
 }
 </style>

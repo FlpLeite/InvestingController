@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Documentos\\PlannerInvesting\\JornadaDoInvestidor\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Documentos\\PlannerInvesting\\JornadaDoInvestidor\\BackControllerInvest\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\PlannerInvesting\\JornadaDoInvestidor\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\PlannerInvesting\\JornadaDoInvestidor\\BackControllerInvest\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\felip\\OneDrive\\Documentos\\PlannerInvesting\\JornadaDoInvestidor\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\felip\\OneDrive\\Documentos\\PlannerInvesting\\JornadaDoInvestidor\\BackControllerInvest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
